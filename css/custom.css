@@ -1,0 +1,189 @@
+body {
+	background-color: #1C5FB0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'digital-7regular';
+    src: url('../fonts/digital-7-webfont.eot');
+    src: url('../fonts/digital-7-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/digital-7-webfont.woff') format('woff'),
+         url('../fonts/digital-7-webfont.ttf') format('truetype'),
+         url('../fonts/digital-7-webfont.svg#digital-7regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.header {
+	background-color: #222d3a;
+}
+
+.header h1 {
+	color: #3C7FFA;
+	margin-top: 0;
+	text-align: center;
+	padding: 60px;
+	font-size: 60px;
+	text-shadow: rgb(19, 26, 33) 1px 1px,
+    rgb(19, 26, 33) 2px 2px,
+    rgb(19, 26, 33) 3px 3px,
+    rgb(19, 26, 33) 4px 4px,
+    rgb(19, 26, 33) 5px 5px,
+    rgb(19, 26, 33) 6px 6px,
+    rgb(19, 26, 33) 7px 7px,
+    rgb(19, 26, 33) 8px 8px,
+    rgb(19, 26, 33) 9px 9px,
+    rgb(19, 26, 33) 10px 10px,
+    rgb(19, 27, 34) 11px 11px,
+    rgb(20, 27, 35) 12px 12px,
+    rgb(20, 28, 36) 13px 13px,
+    rgb(21, 28, 36) 14px 14px,
+    rgb(21, 29, 37) 15px 15px,
+    rgb(22, 30, 38) 16px 16px,
+    rgb(22, 30, 39) 17px 17px,
+    rgb(23, 31, 40) 18px 18px,
+    rgb(23, 31, 40) 19px 19px,
+    rgb(24, 32, 41) 20px 20px,
+    rgb(24, 33, 42) 21px 21px,
+    rgb(25, 33, 43) 22px 22px,
+    rgb(25, 34, 43) 23px 23px,
+    rgb(26, 34, 44) 24px 24px,
+    rgb(26, 35, 45) 25px 25px,
+    rgb(26, 36, 46) 26px 26px,
+    rgb(27, 36, 47) 27px 27px,
+    rgb(27, 37, 47) 28px 28px,
+    rgb(28, 37, 48) 29px 29px,
+    rgb(28, 38, 49) 30px 30px,
+    rgb(29, 39, 50) 31px 31px,
+    rgb(29, 39, 50) 32px 32px,
+    rgb(30, 40, 51) 33px 33px,
+    rgb(30, 40, 52) 34px 34px,
+    rgb(31, 41, 53) 35px 35px,
+    rgb(31, 42, 54) 36px 36px,
+    rgb(32, 42, 54) 37px 37px,
+    rgb(32, 43, 55) 38px 38px,
+    rgb(33, 43, 56) 39px 39px,
+    rgb(33, 44, 57) 40px 40px,
+    rgb(34, 45, 58) 41px 41px;
+}
+
+.twitter-button {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.credit {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.main {
+	margin-top: 10px;
+}
+
+.tab-2, .tab-3 {
+    display: none;
+}
+
+.main img {
+	height: 150px;
+    -webkit-filter: drop-shadow(0px 4px 0px #1C3A70); 
+    filter: drop-shadow(0px 4px 0px #1C3A70);
+
+}
+
+.tagline {
+    text-align: center;
+    color: white;
+}
+
+.sector {
+	text-align: center;
+    margin: 25px 0;
+    color: #CFCFCF;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: rgb(25, 86, 158) 1px 1px,
+        rgb(25, 86, 158) 2px 2px,
+        rgb(25, 86, 158) 3px 3px,
+        rgb(25, 86, 158) 4px 4px,
+        rgb(25, 86, 158) 5px 5px,
+        rgb(25, 86, 158) 6px 6px,
+        rgb(25, 86, 158) 7px 7px,
+        rgb(25, 86, 158) 8px 8px,
+        rgb(25, 86, 158) 9px 9px,
+        rgb(25, 86, 158) 10px 10px,
+        rgb(25, 86, 158) 11px 11px,
+        rgb(25, 86, 158) 12px 12px,
+        rgb(25, 86, 158) 13px 13px,
+        rgb(25, 86, 158) 14px 14px,
+        rgb(25, 86, 158) 15px 15px,
+        rgb(25, 86, 158) 16px 16px,
+        rgb(25, 86, 158) 17px 17px,
+        rgb(25, 86, 158) 18px 18px,
+        rgb(25, 86, 159) 19px 19px,
+        rgb(25, 87, 160) 20px 20px,
+        rgb(25, 87, 160) 21px 21px,
+        rgb(25, 87, 161) 22px 22px,
+        rgb(25, 88, 162) 23px 23px,
+        rgb(25, 88, 162) 24px 24px,
+        rgb(25, 88, 163) 25px 25px,
+        rgb(26, 89, 164) 26px 26px,
+        rgb(26, 89, 164) 27px 27px,
+        rgb(26, 89, 165) 28px 28px,
+        rgb(26, 90, 166) 29px 29px,
+        rgb(26, 90, 167) 30px 30px,
+        rgb(26, 90, 167) 31px 31px,
+        rgb(26, 91, 168) 32px 32px,
+        rgb(26, 91, 169) 33px 33px,
+        rgb(26, 91, 169) 34px 34px,
+        rgb(27, 92, 170) 35px 35px,
+        rgb(27, 92, 171) 36px 36px,
+        rgb(27, 92, 171) 37px 37px,
+        rgb(27, 93, 172) 38px 38px,
+        rgb(27, 93, 173) 39px 39px,
+        rgb(27, 93, 173) 40px 40px,
+        rgb(27, 94, 174) 41px 41px,
+        rgb(27, 94, 175) 42px 42px,
+        rgb(28, 95, 176) 43px 43px;
+}
+
+.sector h4 {
+    margin-bottom: 0px;
+}
+
+.sector-top {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.btn-default {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border-color: #222d3a;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border-color: #222d3a;
+}
+
+.badge {
+    background-color: rgba(0,0,0,0.2);
+}
+
+
